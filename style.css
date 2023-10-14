@@ -16,6 +16,8 @@ nav {
     padding: 2%;
     display: flex;
     justify-content: space-between;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 nav h1 {
@@ -32,8 +34,6 @@ nav a, a:link, a:visited {
     padding: 1% 3%;
     border-radius: 5px;
     margin-left: 2%;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 .links {
